@@ -1,0 +1,10 @@
+{
+	"authors": [
+		"MiyukiNozomi"
+	],
+	"copyright": "Copyright © 2022, MiyukiNozomi",
+	"description": "APT into windows",
+	"targetName": "wpt",
+	"license": "proprietary",
+	"name": "windowspackagingtool"
+}
