@@ -16,6 +16,8 @@ var mime : any = {
 
 const server = new http.Server((request : http.IncomingMessage, response : http.ServerResponse) => {
     let path = request.url + ""; //convert it into a string lol
+    
+    path = path.replace("../", "");
 
     console.log("request gotten for: ", path);
 
