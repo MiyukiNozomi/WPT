@@ -3,7 +3,7 @@ import url from "url";
 import fs from 'fs';
 import { URLSearchParams } from 'url';
 
-var mime : any = {
+let mime : any = {
     html: 'text/html',
     txt: 'text/plain',
     css: 'text/css',
